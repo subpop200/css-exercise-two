@@ -1,0 +1,75 @@
+body 
+{
+  font-size:  16px;
+  background-color: #00000;
+  color: #black;
+  line-height:  normal;
+
+}
+/** font classes **/
+
+h1 {
+  font-size:  32px;
+  text-align:  left;
+  text-transform:  uppercase;
+  font-weight:  300;
+}
+
+h3 {
+  font-size:  20px;
+  font-weight:  600;
+
+}
+a:hover { color: #0070BC; }   /* mouse over the link */
+a {text-decoration: none;}
+
+
+
+
+nav {
+  background-color: rgba(0,0,0,.5);
+  float: left;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+ width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
